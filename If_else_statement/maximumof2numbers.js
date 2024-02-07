@@ -6,3 +6,4 @@ function maximum(a,b){
         console.log("b is greater than a")
     }
 }
+maximum(5,6)

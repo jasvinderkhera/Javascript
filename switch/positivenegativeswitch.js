@@ -1,4 +1,4 @@
-function num(a){
+function num(a) {
     switch (true) {
         case a > 0:
             console.log("a is positive")
@@ -6,11 +6,8 @@ function num(a){
         case a < 0:
             console.log("a is negative")
             break;
-        case a == 0:
+        case a === 0:
             console.log("a is zero")
-            break;
-    
-        default:
             break;
     }
 }

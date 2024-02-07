@@ -4,7 +4,7 @@ function num(a){
     if(a>0){
         console.log("Number is positive")
     }
-    else if(a==0){
+    else if(a===0){
         console.log("Number is zero")
     }
     else if(a<0){

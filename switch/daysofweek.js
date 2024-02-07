@@ -1,4 +1,4 @@
-function weekday(a){
+function weekday(a) {
     switch (a) {
         case 1:
             console.log("Sunday")
@@ -21,8 +21,6 @@ function weekday(a){
         case 7:
             console.log("Saturday")
             break;
-    
-        default:
-            break;
+
     }
 }
