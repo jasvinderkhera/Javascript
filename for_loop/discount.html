@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount on price items</title>
+</head>
+<body>
+    <h1>Loop to check discounted price</h1>
+    
+    <script>
+           let price = [250, 645, 300, 900, 50]
+        let i = 0;
+        for (let val of price) {
+            console.log(val)
+            discount = val/10;
+            price[i] -= discount;
+            i++
+        }
+        console.log(price)
+    </script>
+</body>
+</html>

@@ -6,7 +6,22 @@
     <title>Switch case of negative, positive or zero</title>
 </head>
 <body>
+    <h1>Switch function to check whether number is odd, even or zero</h1>
     
-    <script src="./positivenegativeswitch.js"></script>
+    <script>
+        function num(a) {
+    switch (true) {
+        case a > 0:
+            console.log("a is positive")
+            break;
+        case a < 0:
+            console.log("a is negative")
+            break;
+        case a === 0:
+            console.log("a is zero")
+            break;
+    }
+}
+    </script>
 </body>
 </html>
