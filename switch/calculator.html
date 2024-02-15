@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using switch case</title>
+</head>
+<body>
+    <h1>14. Write a program to create Simple Calculator using switch case.(+,-,*,/,% etc.)</h1>
+    <h2>result will be shown in console</h2>
+    <script>
+        let a = prompt("Enter first number:");
+a = parseInt(a);
+let b = prompt("Enter operator:");
+let c = prompt("Enter second number:");
+c = parseInt(c);
+
+switch(true){
+    case(b == '+'):
+    console.log("result:", a+c);
+    break;
+    case(b == '-'):
+    console.log("result:", a-c);
+    break;
+    case(b == '*'):
+    console.log("result:", a*c);
+    break;
+    case(b == '/'):
+    console.log("result:", a/c);
+    break;
+    case(b == '%'):
+    console.log("result:", a%c);
+    break;
+    default:
+    alert("Enter a valid input")
+}
+    </script>
+</body>
+</html>

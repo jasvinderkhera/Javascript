@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabet, vowel or special character</title>
+</head>
+<body>
+    <h1>12. Write a program to check whether the input character is alphabet,digit or special character.</h1>
+    <h2>use check("input") in console</h2>
+    <script>
+        function check(a){
+            let type = typeof(a)
+            switch(type){
+                case  "number":
+                console.log("The input is a number");
+                break;
+                case "string":
+                console.log("The input is a string");
+                break;
+                default:
+                    console.log("The input is a special character");
+            }
+        }
+    </script>
+</body>
+</html>

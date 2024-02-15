@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligibility</title>
+</head>
+<body>
+    <h1>11. Write a program to read the age of the candidate and determine whether he is eligible to cast his/her vote.</h1>
+    <h2>use eligible("input") in console</h2>
+    
+    <script>
+        function eligible(a){
+            switch(true){
+                case(a<18):
+                console.log("You are minor, not eligible for vote.");
+                break;
+
+                case(a>=18):
+                console.log("You are eligible for vote.");
+                break;
+
+                default:
+                console.log("Enter a valid input.");
+            }
+        }   
+         </script>
+</body>
+</html>

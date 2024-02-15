@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature</title>
+  </head>
+  <body>
+    <h1>
+      15. Write a program to read temperature in centigrade and display a
+      suitable message according to temperature using switch case as given
+      below:- Temperature<0 - Freezing weather Temperature 0-10 - Very Cold
+      weather Temperature 10-20 - Cold weather Temperature 20-30 - Normal in
+      temp Temperature 30-40 - Its hot Temperature >=40 - Its very hot
+    </h1>
+
+    <script>
+      function temperature(a){
+      switch (true) {
+        case (a < 0):
+          console.log("Freezing weather");
+          break;
+        case (a==0 || a<10):
+          console.log("Very Cold weather");
+          break;
+        case (a == 10 || a<20):
+          console.log("Cold weather");
+          break;
+        case (a == 20 || a<30):
+          console.log("Normal in temp");
+          break;
+        case (a == 30 || a<40):
+          console.log("Its hot");
+          break;
+        case (a >= 40):
+          console.log("Its very hot");
+          break;
+          default:
+            console.log("Enter a valid input");
+      }
+    }
+    </script>
+  </body>
+</html>
