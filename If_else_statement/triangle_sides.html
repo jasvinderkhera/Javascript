@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Sides</title>
+</head>
+<body>
+    <h2>9. Write a program to input sides of a triangle and check whether triangle is valid or not.</h2>
+    <br>
+    <br>
+    <script>
+        let a = parseInt(prompt("Enter side1:"))
+        let b = parseInt(prompt("Enter side2:"))
+        let c = parseInt(prompt("Enter side3:"))
+        if(a === 0 || b === 0 || c === 0){
+            alert("Enter all three angles");
+        }
+        else{
+            if(a+b>c && b+c>a && c+a>b){
+                console.log("Triangle is valid")
+            }
+            else{
+                console.log("Triangle is not  valid")
+            }
+        }
+    </script>
+</body>
+</html>

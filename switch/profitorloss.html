@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit or Loss</title>
+</head>
+<body>
+    <h2>18. Write a program to find profit or loss. </h2>
+    
+    <script>
+        let sellingPrice = parseInt(prompt("Enter selling price:"))
+        let costPrice = parseInt(prompt("Enter cost price:"))
+        switch(true){
+         case (sellingPrice > costPrice):
+        let profit = sellingPrice - costPrice;
+        console.log("Profit: " + profit);
+    case(sellingPrice < costPrice):
+        let loss = costPrice - sellingPrice;
+        console.log("Loss: " + loss);
+    default:
+        console.log("No profit, no loss.");
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+</head>
+<body>
+    <h2>21.Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+        Percentage >= 90% : Grade A
+        Percentage >= 80% : Grade B
+        Percentage >= 70% : Grade C
+        Percentage >= 60% : Grade D
+        Percentage >= 40% : Grade E
+        Percentage < 40% : Grade F</h2>
+
+        <script>
+            let a = parseInt(prompt("Enter marks of Physics:"));
+            let b = parseInt(prompt("Enter marks of Chemistry:"));
+            let c = parseInt(prompt("Enter marks of Biology:"));
+            let d = parseInt(prompt("Enter marks of Mathematics:"));
+            let e = parseInt(prompt("Enter marks of Computer:"));
+
+            let total_Marks = a+b+c+d+e;
+            console.log("Total Marks: "+total_Marks+"/500" )
+            percent = total_Marks/500*100
+            if(a==null || b==null || c==null ||d==null || e==null){
+                console.log("You missed one subject marks")
+            }
+            else{
+            if(percent>=90){
+                document.write(`<h1>percentage is ${percent} and grade is A</h1>`)
+            }
+            else if(percent>=80){
+                document.write(`<h1>percentage is ${percent} and grade is B</h1>`)
+            }
+            else if(percent>=70){
+                document.write(`<h1>percentage is ${percent} and grade is C</h1>`)
+            }
+            else if(percent>=60){
+                document.write(`<h1>percentage is ${percent} and grade is D</h1>`)
+            }
+            else if(percent>=40){
+                document.write(`<h1>percentage is ${percent} and grade is E</h1>`)
+            }
+            else if(percent<40){
+                document.write(`<h1>percentage is ${percent} and grade is F</h1>`)
+            }
+        }
+        </script>
+</body>
+</html>

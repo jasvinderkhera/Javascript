@@ -10,18 +10,17 @@
     <h2>use check("input") in console</h2>
     <script>
         function check(a){
-            let type = typeof(a)
-            switch(type){
-                case  "number":
-                console.log("The input is a number");
-                break;
-                case "string":
-                console.log("The input is a string");
-                break;
-                default:
-                    console.log("The input is a special character");
-            }
-        }
+            
+                if  (a >= "a" && a <= "z" || a >= "A" && a <= "Z"){
+                console.log("The input is a String");}
+                
+                else if (a >= '0' && a <=Number.POSITIVE_INFINITY){
+                console.log("The input is a string");}
+                
+                else{
+                    console.log("The input is a special character");}
+                }
+        
     </script>
 </body>
 </html>

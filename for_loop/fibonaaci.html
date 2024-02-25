@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fibonaaci</title>
+  </head>
+  <body>
+    <h2>34. Write a program to first n numbers of fibonacci series.</h2>
+
+    <script>
+      let a = parseInt(prompt("Enter Number:"));
+      let result = 1;
+      let arr = [0,1];
+      for (i = 2; i < a; i++) {
+        arr.push(arr[i-1] + arr[i-2])
+    }
+    console.log("fibbonaci series: ", arr )
+    </script>
+  </body>
+</html>

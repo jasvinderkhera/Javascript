@@ -1,6 +1,12 @@
 All Javascript contents, exercises will be in this folder.
 
-
+1. Write a program to find maximum between two given numbers. 
+2.Write a program to check whether given no is even or odd. 
+3. Write a program to find maximum between three numbers. 
+4. Write a program to check whether a number is negative positive or zero. 
+5. Write a program to print days of a week using switch case. 
+6. Write a program to find maximum between two numbers using switch case. 
+7. Write a program to check whether a number is negative positive or zero using switch case.
 8. Write a program to input angles of a triangle and check whether triangle is valid or not.
 9. Write a program to input sides of a triangle and check whether triangle is valid or not.
 10. Write a program to check whether the triangle is equilateral,isoceles or scalene triangle.
@@ -17,6 +23,63 @@ Temperature 20-30 - Normal in temp
 Temperature 30-40  - Its hot
 Temperature >=40 - Its very hot
 
+
+16. Write a program to check whether a number is divisible by 5 and 11 Or not. 
+17. Write a program to check whether a character is upper case Or lower case alphabet. 
+18. Write a program to find profit or loss. 
+19. Write a program to print no of days in a month. 
+20. Write a program in C to accept a grade and declare the equivalent description :
+
+Grade	Description
+E	Excellent
+V	Very Good
+G	Good
+A	Average
+F	Fail
+
+
+Some more js questions:-
+21.Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+Percentage >= 90% : Grade A
+Percentage >= 80% : Grade B
+Percentage >= 70% : Grade C
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E
+Percentage < 40% : Grade F
+
+22. Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary <= 20000 : HRA = 25%, DA = 90%
+Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+23. Write a C program to input electricity unit charges and calculate total electricity bill according to the given condition:
+For first 50 units Rs. 0.50/unit
+For next 100 units Rs. 0.75/unit
+For next 100 units Rs. 1.20/unit
+For unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill
+
+24. Write a program to convert temperature from fahrenheit to celsius and celsius to fahrenheit.
+
+25. Write a program to take the value from the user as input marks of five subjects Physics, Chemistry, Biology, Mathematics, and Computer. Calculate percentage and grade according to the following: Percentage >= 90% : Grade A, Percentage >= 80% : Grade B, Percentage >= 70% : Grade C, Percentage >= 60% : Grade D, Percentage >= 40% : Grade E, Percentage < 40% : Grade F, Using switch statement.
+
+FOR LOOP:-
+
+26. Write a program to compute the sum of the first n natural numbers.
+27. Write a program to display n terms of natural numbers and their sum.
+28. Write a program to display the square of the number up to an integer.
+29. Write a program to display the cube of the number up to an integer.
+30. Write a program to read n numbers from the keyboard and find their sum and average.
+31. Write a program to display the multiplication table for a given integer.
+32. Write a program to display the n terms of odd natural numbers and their sum.
+33. Write a program to display the n terms of even natural numbers and their sum.
+34. Write a program to first n numbers of fibonacci series.
+35. Write a program to find the factorial value of any number entered through the keyboard. 
+36. Write a program to find the number and sum of all integers between 100 and 200 which are divisible by 9.
+37. Write a program to check whether a number is prime or not.
+38. Write a program to find a prime number within a range.
+39. Write a to list non-prime numbers within a range.
+40. Write a program to find the power of any number using a for loop.
 
 
 

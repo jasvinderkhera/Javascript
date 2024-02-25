@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Angle</title>
+</head>
+<body>
+    <h2>8. Write a program to input angles of a triangle and check whether triangle is valid or not.</h2>
+
+    <script>
+        let a = parseInt(prompt("Enter angle1:"))
+        let b = parseInt(prompt("Enter angle2:"))
+        let c = parseInt(prompt("Enter angle3:"))
+        if(a === 0 || b === 0 || c === 0){
+            alert("Enter all three angles");
+        }
+        else{
+            if(a+b+c === 180){
+                console.log("Triangle is valid")
+            }
+            else{
+                console.log("Triangle is not valid")
+            }
+        } 
+    </script>
+    
+</body>
+</html>

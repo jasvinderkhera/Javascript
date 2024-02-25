@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grades using Switch</title>
+</head>
+<body>
+    <h2>25. Write a program to take the value from the user as input marks of five subjects Physics, Chemistry, Biology, Mathematics, and Computer. Calculate percentage and grade according to the following: Percentage >= 90% : Grade A, Percentage >= 80% : Grade B, Percentage >= 70% : Grade C, Percentage >= 60% : Grade D, Percentage >= 40% : Grade E, Percentage < 40% : Grade F, Using switch statement.</h2>
+
+
+    <script>
+       let a = parseInt(prompt("Enter marks of Physics:"));
+            let b = parseInt(prompt("Enter marks of Chemistry:"));
+            let c = parseInt(prompt("Enter marks of Biology:"));
+            let d = parseInt(prompt("Enter marks of Mathematics:"));
+            let e = parseInt(prompt("Enter marks of Computer:"));
+
+            let total_Marks = a+b+c+d+e;
+            console.log("Total Marks: "+total_Marks+"/500" )
+            percent = total_Marks/500*100
+           switch(true){
+
+            case (percent>=90):
+                document.write(`<h1>percentage is ${percent} and grade is A</h1>`)
+                break;
+                
+            case (percent>=80):
+                document.write(`<h1>percentage is ${percent} and grade is B</h1>`)
+                break;
+
+            case (percent>=70):
+                document.write(`<h1>percentage is ${percent} and grade is C</h1>`)
+                break;  
+
+            case (percent>=60):
+                document.write(`<h1>percentage is ${percent} and grade is D</h1>`)
+                break;    
+
+            case (percent>=40):
+                document.write(`<h1>percentage is ${percent} and grade is E</h1>`)
+                break;  
+
+            case (percent<40):
+                document.write(`<h1>percentage is ${percent} and grade is F</h1>`)
+                break;
+        }
+    </script>
+</body>
+</html>
