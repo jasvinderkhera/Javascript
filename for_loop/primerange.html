@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prime Range</title>
+    <title>Prime Number range</title>
 </head>
 <body>
-    <h2>38. Write a program to find a prime number within a range.</h2>
+    <h2>38. Write a program to find whether number is prime or not in range</h2>
 
     <script>
          let a = parseInt(prompt("Enter Number 1:"))
          let b = parseInt(prompt("Enter Number 2:"))
-         for(i =a; i<=b; i++){
-            if(i%2 === 0 || i%3 === 0 || i%5 === 0 || i%7 === 0){
-                
+         for(let j =a ; j<= b; j++){
+             result = 0;
+            
+         
+         for( let i =2; i<=a/2; i++){
+            if(j%i == 0){
+                result = 1
+                break;
             }
-            else{
-                console.log("Prime Number: ",i)
-            }
+        }
+         if(result === 0){
+            console.log(`Number ${j} is prime`)
          }
+         else{
+            console.log(`Number ${j} is not prime`)
+         }
+        }
     </script>
 </body>
 </html>

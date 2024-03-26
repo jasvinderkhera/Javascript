@@ -126,3 +126,59 @@ Given an array of numbers, write a function to map each number to its square (i.
 Question 5:
 
 Given an array of strings representing words, write a function to map each word to its length and return a new array containing the lengths of the words.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+24 March 2024
+
+41. Write a program to generate following output:-
+1
+12
+123
+1234
+12345
+42. Write a program to generate following output:-
+12345
+1234
+123
+12
+1
+43. Write a program to generate following output:-
+*
+* *
+* * *
+* * * *
+* * * * *
+44. Write a program to generate following output:-
+* * * * *
+* * * *
+* * *
+* *
+*
+45. Write a program to generate following output:-
+1
+22
+333
+4444
+55555
+46. Write a program to generate following output:-
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+47. Write a program to generate following output:-
+5 4 3 2 1
+5 4 3 2
+5 4 3
+5 4
+5
+48. Write a program that takes input from the user and counts the number of uppercase and lowercase letters, as well as the number of other characters.
+49. Write a program to find the sum of an A.P. series.
+50. Write a program to generate following output:-
+A
+A B
+A B C
+A B C D
+A B C D E

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question number 42</title>
+  </head>
+  <body>
+    <h1>
+      42. Write a program to generate following output:- <br />
+      12345 <br />
+      1234 <br />
+      123 <br />
+      12 <br />
+      1
+    </h1>
+
+    <script>
+      for (let i = 1; i <= 5; i++) {
+        let a = "";
+        let b = 1
+        for (let j = 5; j >= i; j--) {
+          a = a + b;
+          b++
+        }
+        console.log(a)
+      }
+    </script>
+  </body>
+</html>
