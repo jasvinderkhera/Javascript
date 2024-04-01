@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <h1>50. Write a program to generate following output:- <br>
+    A <br>
+    A B <br>
+    A B C <br>
+    A B C D <br>
+    A B C D E <br>
+</h1>
+
+    <script>
+        for(i = 1; i<=5; i++ ){
+    let res =""
+    let a = 65;
+    for(j = 1 ; j<=i; j++ ){
+        let char = String.fromCharCode(a)
+        res = res + char
+        a++
+    }
+    console.log(res)
+}
+    </script>
+</body>
+</html>
