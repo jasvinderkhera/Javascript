@@ -182,3 +182,78 @@ A B
 A B C
 A B C D
 A B C D E
+
+
+7 April 2024
+
+51. Write a program to generate following output:-
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+
+52. Write a program to generate following output:-
+1
+1 0
+1 0 1
+1 0 1 0
+1 0 1 0 1
+
+53. Write a program to generate following output:-
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+54. Write a program to generate following output:-
+A B C D E
+A B C D
+A B C
+A B
+A
+
+55. Write a program to generate following output (Fibonacci Triangle):-
+1
+1 1
+1 1 2
+1 1 2 3
+
+56. Write a program to generate following output:-
+1 1 1 1 1 
+2 2 2 2 
+3 3 3 
+4 4 
+5
+
+57. Write a program to generate following output:-
+5 5 5 5 5 
+5 5 5 5 
+5 5 5 
+5 5 
+5
+
+58. Write a program to generate following output:-
+1 
+3 3 
+5 5 5 
+7 7 7 7 
+9 9 9 9 9
+
+59. Write a program to generate following output:-
+5 5 5 5 5 
+4 4 4 4 
+3 3 3 
+2 2 
+1
+
+60. Write a program to generate following output:-
+1  
+2  4  
+3  6  9  
+4  8  12  16  
+5  10  15  20  25  
+6  12  18  24  30  36  
+7  14  21  28  35  42  49  
+8  16  24  32  40  48  56  64
