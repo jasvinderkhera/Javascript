@@ -17,6 +17,30 @@
 
 //---------------------------------------------------------------------------
 
+
+// 52. Write a program to generate following output:-
+// 1
+// 1 0
+// 1 0 1
+// 1 0 1 0
+// 1 0 1 0 1
+
+// for(i=1; i<=5; i++){
+//     let res = ""
+//     for(j=1; j<=i; j++){
+//         if(j%2 === 0){
+//             res = res + "0"
+//         }
+//         else{
+//             res = res + "1"
+//         }
+//     }
+//     console.log(res)
+// }
+
+
+//---------------------------------------------------------------------------
+
 // 54. Write a program to generate following output:-
 // A B C D E
 // A B C D

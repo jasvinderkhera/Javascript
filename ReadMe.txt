@@ -257,3 +257,77 @@ A
 6  12  18  24  30  36  
 7  14  21  28  35  42  49  
 8  16  24  32  40  48  56  64
+
+61. Write a program to generate following output:-
+     1
+    12
+   123
+  1234
+ 12345
+
+62. Write a program to generate following output:-
+ 12345
+  1234
+   123
+    12
+     1
+
+63. Write a program to generate following output:-
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+
+64. Write a program to generate following output:-
+1 3 5 7 9
+1 3 5 7
+1 3 5
+1 3
+1
+
+65. WAP to find factorial of 1st 10 numbers.
+
+66. Write a program to generate following output:-
+1       2       3       4       5
+2       4       6       8       10
+3       6       9       12      15
+4       8       12      16      20
+5       10      15      20      25
+6       12      18      24      30
+7       14      21      28      35
+8       16      24      32      40
+9       18      27      36      45
+10      20      30      40      50
+
+67. Write a program to generate following output:-
+9
+9 7
+9 7 5
+9 7 5 3
+9 7 5 3 1
+
+68. Write a program to generate following output:-
+9
+7 9
+5 7 9
+3 5 7 9
+1 3 5 7 9
+
+69. Write a program to generate following output:-
+        9
+        9 7
+        9 7 5
+        9 7 5 3
+        9 7 5 3 1
+
+70. Write a program to generate following output:-
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
